@@ -1,5 +1,5 @@
 import React from "react";
-import { Article, Brand, CTA, Feature, Navbar } from "./components";
+import {  Brand, CTA ,Navbar } from "./components";
 import {
   Blog,
   Features,
@@ -18,8 +18,9 @@ function App() {
       </div>
       <Brand />
       <WhatGPT3 />
-      <Feature />
+      <Features />
       <Possibility />
+      <CTA />
       <Blog />
       <Footer />
     </div>

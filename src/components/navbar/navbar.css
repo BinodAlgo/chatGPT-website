@@ -1,7 +1,8 @@
 .gpt3__navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  color:white;
   padding: 2rem 6rem;
 }
 
@@ -21,6 +22,7 @@
 
 .gpt3__navbar-links_container {
   display: flex;
+  justify-content: flex-end;
   flex-direction: row;
 }
 .gpt3__navbar-sign {
@@ -32,7 +34,7 @@
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
 .gpt3__navbar-menu_container p {
-  color: #fff;
+  /* color: #fff; */
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;

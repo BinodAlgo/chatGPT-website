@@ -7,7 +7,7 @@
   scroll-behavior: smooth;
 }
 body{
-    background:#000;
+    background:var(--color-bg);
 }
 
 a {
@@ -16,45 +16,24 @@ a {
 }
 
 .gradient__bg {
-  color: white;
-  /* ff 3.6+ */
-  background: -moz-radial-gradient(
-    circle at 20% 30%,
-    rgba(93, 28, 170, 1) 0%,
-    rgba(2, 10, 46, 1) 100%
-  );
+  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
   /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(
-    circle at 20% 30%,
-    rgba(93, 28, 170, 1) 0%,
-    rgba(2, 10, 46, 1) 100%
-  );
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
   /* opera 11.10+ */
-  background: -o-radial-gradient(
-    circle at 20% 30%,
-    rgba(93, 28, 170, 1) 0%,
-    rgba(2, 10, 46, 1) 100%
-  );
+  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
   /* ie 10+ */
-  background: -ms-radial-gradient(
-    circle at 20% 30%,
-    rgba(93, 28, 170, 1) 0%,
-    rgba(2, 10, 46, 1) 100%
-  );
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
   /* global 92%+ browsers support */
-  background: radial-gradient(
-    circle at 20% 30%,
-    rgba(93, 28, 170, 1) 0%,
-    rgba(2, 10, 46, 1) 100%
-  );
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 }
 
 .gradient__text {
   background: var(--gradient-text);
+  font-family: var(--font-family);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
